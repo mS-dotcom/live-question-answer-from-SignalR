@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/muhammedseker/Projects/Ringteyim/Ringteyim/Ringteyim.csproj",
+      "projectUniqueName": "/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/Ringteyim/Ringteyim.csproj",
       "projectName": "Ringteyim",
-      "projectPath": "/Users/muhammedseker/Projects/Ringteyim/Ringteyim/Ringteyim.csproj",
+      "projectPath": "/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/Ringteyim/Ringteyim.csproj",
       "packagesPath": "/Users/muhammedseker/.nuget/packages/",
-      "outputPath": "/Users/muhammedseker/Projects/Ringteyim/Ringteyim/obj/",
+      "outputPath": "/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/Ringteyim/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/muhammedseker/.nuget/NuGet/NuGet.Config"
