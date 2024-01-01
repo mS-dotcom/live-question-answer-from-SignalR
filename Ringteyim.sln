@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1706.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ringteyim", "Ringteyim\Ringteyim.csproj", "{4555CA9D-D840-4FC2-A5AF-106DEB90DFF9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RingteyimAPI", "Ringteyim\RingteyimAPI.csproj", "{4555CA9D-D840-4FC2-A5AF-106DEB90DFF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityLayer", "EntityLayer\EntityLayer.csproj", "{660A70C1-1754-43A0-A2D6-908D31905F55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{8B64C1D6-A9F6-4A78-96C4-EC09F5BB1396}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DtoLayer", "DtoLayer\DtoLayer.csproj", "{B1DACCE9-7F22-46C0-A782-BE4C48AF9D50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{6F312BE7-D8DC-4A1B-B6A3-356B0E23EDFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{4555CA9D-D840-4FC2-A5AF-106DEB90DFF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4555CA9D-D840-4FC2-A5AF-106DEB90DFF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4555CA9D-D840-4FC2-A5AF-106DEB90DFF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{660A70C1-1754-43A0-A2D6-908D31905F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{660A70C1-1754-43A0-A2D6-908D31905F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{660A70C1-1754-43A0-A2D6-908D31905F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{660A70C1-1754-43A0-A2D6-908D31905F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B64C1D6-A9F6-4A78-96C4-EC09F5BB1396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B64C1D6-A9F6-4A78-96C4-EC09F5BB1396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B64C1D6-A9F6-4A78-96C4-EC09F5BB1396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B64C1D6-A9F6-4A78-96C4-EC09F5BB1396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1DACCE9-7F22-46C0-A782-BE4C48AF9D50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1DACCE9-7F22-46C0-A782-BE4C48AF9D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1DACCE9-7F22-46C0-A782-BE4C48AF9D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1DACCE9-7F22-46C0-A782-BE4C48AF9D50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F312BE7-D8DC-4A1B-B6A3-356B0E23EDFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F312BE7-D8DC-4A1B-B6A3-356B0E23EDFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F312BE7-D8DC-4A1B-B6A3-356B0E23EDFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F312BE7-D8DC-4A1B-B6A3-356B0E23EDFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

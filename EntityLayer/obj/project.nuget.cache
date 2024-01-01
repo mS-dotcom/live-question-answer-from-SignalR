@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "MMBPKUeSvU3HJ/d93KDfaxP7QZpsiTxqI1vSihUIwAK7U4KHXP5t4NSeDG6dj28SzBc6DbGHb8kjTqEXLkxmAA==",
+  "success": true,
+  "projectFilePath": "/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/EntityLayer/EntityLayer.csproj",
+  "expectedPackageFiles": [
+    "/Users/muhammedseker/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "/Users/muhammedseker/.nuget/packages/microsoft.netcore.app.ref/7.0.14/microsoft.netcore.app.ref.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

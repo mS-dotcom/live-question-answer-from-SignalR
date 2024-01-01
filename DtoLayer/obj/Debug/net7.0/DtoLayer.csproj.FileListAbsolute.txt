@@ -1,0 +1,12 @@
+/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/DtoLayer/bin/Debug/net7.0/DtoLayer.deps.json
+/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/DtoLayer/bin/Debug/net7.0/DtoLayer.dll
+/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/DtoLayer/bin/Debug/net7.0/DtoLayer.pdb
+/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/DtoLayer/obj/Debug/net7.0/DtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/DtoLayer/obj/Debug/net7.0/DtoLayer.AssemblyInfoInputs.cache
+/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/DtoLayer/obj/Debug/net7.0/DtoLayer.AssemblyInfo.cs
+/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/DtoLayer/obj/Debug/net7.0/DtoLayer.csproj.CoreCompileInputs.cache
+/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/DtoLayer/obj/Debug/net7.0/DtoLayer.sourcelink.json
+/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/DtoLayer/obj/Debug/net7.0/DtoLayer.dll
+/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/DtoLayer/obj/Debug/net7.0/refint/DtoLayer.dll
+/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/DtoLayer/obj/Debug/net7.0/DtoLayer.pdb
+/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/DtoLayer/obj/Debug/net7.0/ref/DtoLayer.dll

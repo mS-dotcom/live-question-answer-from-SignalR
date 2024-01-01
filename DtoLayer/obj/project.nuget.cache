@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dyoFMDg/c/aLl85Ptdf3QWCM8tg9BbIz1/GsHveCSSO5ZK5ebeXUGgqoIEtKnymuIKKp9UXtgCC/LvD/vhVqAQ==",
+  "success": true,
+  "projectFilePath": "/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/DtoLayer/DtoLayer.csproj",
+  "expectedPackageFiles": [
+    "/Users/muhammedseker/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "/Users/muhammedseker/.nuget/packages/microsoft.netcore.app.ref/7.0.14/microsoft.netcore.app.ref.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
