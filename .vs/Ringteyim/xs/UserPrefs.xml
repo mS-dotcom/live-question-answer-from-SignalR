@@ -1,26 +1,44 @@
 ﻿<Properties StartupConfiguration="{4555CA9D-D840-4FC2-A5AF-106DEB90DFF9}|https" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Ringteyim/Controllers/UserController.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="EntityLayer/Entities/Exam.cs">
     <Files>
-      <File FileName="Ringteyim/Models/ErrorViewModel.cs" Line="5" Column="19" />
-      <File FileName="Ringteyim/Controllers/UserController.cs" Line="32" Column="1" />
+      <File FileName="Ringteyim/Controllers/UserController.cs" />
+      <File FileName="DataAccessLayer/Concrete/RingteyimContext.cs" />
+      <File FileName="Ringteyim/Program.cs" />
+      <File FileName="EntityLayer/Entities/User.cs" />
+      <File FileName="EntityLayer/Entities/Exam.cs" Line="9" Column="18" />
+      <File FileName="EntityLayer/Entities/Lesson.cs" />
+      <File FileName="EntityLayer/Entities/LessonAndExam.cs" />
+      <File FileName="EntityLayer/Entities/Question.cs" />
+      <File FileName="EntityLayer/Entities/Session.cs" />
+      <File FileName="EntityLayer/Entities/Option.cs" />
+      <File FileName="EntityLayer/Entities/Answer.cs" />
+      <File FileName="EntityLayer/Entities/GeneralPoint.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Ringteyim" expanded="True">
-            <Node name="EntityLayer" expanded="True" />
-            <Node name="Ringteyim">
+          <Node name="Ringteyim">
+            <Node name="DataAccessLayer" expanded="True">
+              <Node name="Concrete" expanded="True" />
+            </Node>
+            <Node name="EntityLayer" expanded="True">
+              <Node name="Entities" expanded="True">
+                <Node name="Exam.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="RingteyimAPI" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="DAL" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.RingteyimAPI PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.RingteyimAPI PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
 </Properties>

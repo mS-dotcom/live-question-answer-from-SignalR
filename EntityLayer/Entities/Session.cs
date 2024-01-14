@@ -8,6 +8,8 @@ namespace EntityLayer.Entities
 		[Key]
 		public int SessionId { get; set; }
 
+		public int SessionType { get; set; }
+
 		public int ExamId { get; set; }
 
 		public DateTime dateTime { get; set; }
@@ -15,6 +17,8 @@ namespace EntityLayer.Entities
 		public int FirstUserId { get; set; }
 
 		public int SecondUserId { get; set; }
+
+		public bool IsEnd { get; set; }
 	}
 }
 
