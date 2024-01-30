@@ -3,32 +3,50 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="EntityLayer/Entities/Exam.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccessLayer/EntityFramework/EfLessonDal.cs">
     <Files>
       <File FileName="Ringteyim/Controllers/UserController.cs" />
       <File FileName="DataAccessLayer/Concrete/RingteyimContext.cs" />
       <File FileName="Ringteyim/Program.cs" />
       <File FileName="EntityLayer/Entities/User.cs" />
-      <File FileName="EntityLayer/Entities/Exam.cs" Line="9" Column="18" />
+      <File FileName="EntityLayer/Entities/Exam.cs" />
       <File FileName="EntityLayer/Entities/Lesson.cs" />
       <File FileName="EntityLayer/Entities/LessonAndExam.cs" />
       <File FileName="EntityLayer/Entities/Question.cs" />
       <File FileName="EntityLayer/Entities/Session.cs" />
       <File FileName="EntityLayer/Entities/Option.cs" />
       <File FileName="EntityLayer/Entities/Answer.cs" />
-      <File FileName="EntityLayer/Entities/GeneralPoint.cs" />
+      <File FileName="DataAccessLayer/Abstract/IGenericDal.cs" Line="12" Column="24" />
+      <File FileName="DataAccessLayer/Abstract/ISessionDal.cs" />
+      <File FileName="DataAccessLayer/Abstract/ILessonDal.cs" Line="5" Column="2" />
+      <File FileName="DataAccessLayer/Abstract/IQuestionDal.cs" Line="12" Column="1" />
+      <File FileName="DataAccessLayer/Abstract/IAnswerDal.cs" Line="8" Column="3" />
+      <File FileName="DataAccessLayer/Abstract/IExamDal.cs" Line="6" Column="18" />
+      <File FileName="DataAccessLayer/Abstract/IGeneralPointDal.cs" Line="8" Column="3" />
+      <File FileName="DataAccessLayer/Abstract/IOptionDal.cs" Line="11" Column="1" />
+      <File FileName="DataAccessLayer/Repositories/GenericRepository.cs" Line="41" Column="36" />
+      <File FileName="DataAccessLayer/EntityFramework/EfUserDal.cs" Line="13" Column="1" />
+      <File FileName="DataAccessLayer/EntityFramework/EfSessionDal.cs" Line="12" Column="10" />
+      <File FileName="DataAccessLayer/EntityFramework/EfQuestionDal.cs" Line="9" Column="75" />
+      <File FileName="DataAccessLayer/EntityFramework/EfOptionDal.cs" Line="9" Column="69" />
+      <File FileName="DataAccessLayer/EntityFramework/EfLessonAndExamDal.cs" Line="13" Column="10" />
+      <File FileName="DataAccessLayer/Abstract/ILessonAndExamDal.cs" Line="9" Column="3" />
+      <File FileName="DataAccessLayer/EntityFramework/EfLessonDal.cs" Line="17" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Ringteyim">
-            <Node name="DataAccessLayer" expanded="True">
+          <Node name="Ringteyim" expanded="True">
+            <Node name="DataAccessLayer">
+              <Node name="Dependencies" expanded="True" />
               <Node name="Concrete" expanded="True" />
+              <Node name="EntityFramework" expanded="True">
+                <Node name="EfLessonDal.cs" selected="True" />
+              </Node>
+              <Node name="Repositories" expanded="True" />
             </Node>
             <Node name="EntityLayer" expanded="True">
-              <Node name="Entities" expanded="True">
-                <Node name="Exam.cs" selected="True" />
-              </Node>
+              <Node name="Entities" expanded="True" />
             </Node>
             <Node name="RingteyimAPI" expanded="True">
               <Node name="Controllers" expanded="True" />
