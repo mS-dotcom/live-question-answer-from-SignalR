@@ -7,7 +7,9 @@ namespace EntityLayer.Entities
 	{
 		[Key]
 		public int LessonId { get; set; }
+
 		public string LessonName { get; set; }
-	}
+        public ICollection<LessonAndExam> lessonAndExams { get; set; }
+    }
 }
 

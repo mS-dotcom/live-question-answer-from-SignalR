@@ -3,7 +3,7 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccessLayer/EntityFramework/EfLessonDal.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BusinessLayer/Concrete/AnswerManager.cs">
     <Files>
       <File FileName="Ringteyim/Controllers/UserController.cs" />
       <File FileName="DataAccessLayer/Concrete/RingteyimContext.cs" />
@@ -16,40 +16,55 @@
       <File FileName="EntityLayer/Entities/Session.cs" />
       <File FileName="EntityLayer/Entities/Option.cs" />
       <File FileName="EntityLayer/Entities/Answer.cs" />
-      <File FileName="DataAccessLayer/Abstract/IGenericDal.cs" Line="12" Column="24" />
       <File FileName="DataAccessLayer/Abstract/ISessionDal.cs" />
       <File FileName="DataAccessLayer/Abstract/ILessonDal.cs" Line="5" Column="2" />
-      <File FileName="DataAccessLayer/Abstract/IQuestionDal.cs" Line="12" Column="1" />
-      <File FileName="DataAccessLayer/Abstract/IAnswerDal.cs" Line="8" Column="3" />
-      <File FileName="DataAccessLayer/Abstract/IExamDal.cs" Line="6" Column="18" />
-      <File FileName="DataAccessLayer/Abstract/IGeneralPointDal.cs" Line="8" Column="3" />
-      <File FileName="DataAccessLayer/Abstract/IOptionDal.cs" Line="11" Column="1" />
-      <File FileName="DataAccessLayer/Repositories/GenericRepository.cs" Line="41" Column="36" />
-      <File FileName="DataAccessLayer/EntityFramework/EfUserDal.cs" Line="13" Column="1" />
-      <File FileName="DataAccessLayer/EntityFramework/EfSessionDal.cs" Line="12" Column="10" />
-      <File FileName="DataAccessLayer/EntityFramework/EfQuestionDal.cs" Line="9" Column="75" />
-      <File FileName="DataAccessLayer/EntityFramework/EfOptionDal.cs" Line="9" Column="69" />
-      <File FileName="DataAccessLayer/EntityFramework/EfLessonAndExamDal.cs" Line="13" Column="10" />
-      <File FileName="DataAccessLayer/Abstract/ILessonAndExamDal.cs" Line="9" Column="3" />
-      <File FileName="DataAccessLayer/EntityFramework/EfLessonDal.cs" Line="17" Column="1" />
+      <File FileName="DataAccessLayer/Abstract/IQuestionDal.cs" />
+      <File FileName="DataAccessLayer/Abstract/IAnswerDal.cs" />
+      <File FileName="DataAccessLayer/Abstract/IExamDal.cs" />
+      <File FileName="DataAccessLayer/Abstract/IGeneralPointDal.cs" />
+      <File FileName="DataAccessLayer/Abstract/IOptionDal.cs" />
+      <File FileName="DataAccessLayer/Repositories/GenericRepository.cs" />
+      <File FileName="DataAccessLayer/EntityFramework/EfUserDal.cs" />
+      <File FileName="DataAccessLayer/EntityFramework/EfSessionDal.cs" />
+      <File FileName="DataAccessLayer/EntityFramework/EfQuestionDal.cs" />
+      <File FileName="DataAccessLayer/EntityFramework/EfOptionDal.cs" />
+      <File FileName="DataAccessLayer/EntityFramework/EfLessonAndExamDal.cs" Line="11" Column="76" />
+      <File FileName="DataAccessLayer/Abstract/ILessonAndExamDal.cs" />
+      <File FileName="DataAccessLayer/EntityFramework/EfLessonDal.cs" Line="13" Column="1" />
+      <File FileName="DataAccessLayer/EntityFramework/EfAnswerDal.cs" Line="11" Column="63" />
+      <File FileName="DataAccessLayer/EntityFramework/EfExamDal.cs" Line="12" Column="10" />
+      <File FileName="DataAccessLayer/EntityFramework/EfGeneralPointDal.cs" Line="17" Column="1" />
+      <File FileName="BusinessLayer/Abstract/IGenericService.cs" Line="12" Column="18" />
+      <File FileName="BusinessLayer/Abstract/IAboutService.cs" Line="6" Column="54" />
+      <File FileName="BusinessLayer/Abstract/IExamService.cs" Line="5" Column="2" />
+      <File FileName="BusinessLayer/Abstract/IGeneralPointService.cs" Line="8" Column="3" />
+      <File FileName="BusinessLayer/Abstract/ILessonAndExamService.cs" Line="9" Column="3" />
+      <File FileName="BusinessLayer/Abstract/ILessonDal.cs" Line="7" Column="33" />
+      <File FileName="BusinessLayer/Abstract/IOptionService.cs" Line="8" Column="1" />
+      <File FileName="BusinessLayer/Abstract/IQuestionService.cs" Line="8" Column="3" />
+      <File FileName="BusinessLayer/Abstract/ISessionService.cs" Line="8" Column="3" />
+      <File FileName="BusinessLayer/Abstract/IUserService.cs" Line="9" Column="1" />
+      <File FileName="BusinessLayer/Concrete/AnswerManager.cs" Line="3" Column="32" />
+      <File FileName="BusinessLayer/Concrete/ExamManager.cs" Line="10" Column="4" />
+      <File FileName="BusinessLayer/Concrete/GeneralPointManager.cs" Line="37" Column="5" />
+      <File FileName="BusinessLayer/Concrete/LessonAndExamManager.cs" Line="7" Column="57" />
+      <File FileName="BusinessLayer/Concrete/LessonManager.cs" Line="7" Column="43" />
+      <File FileName="BusinessLayer/Concrete/OptionManager.cs" Line="7" Column="32" />
+      <File FileName="BusinessLayer/Concrete/QuestionService.cs" Line="8" Column="3" />
+      <File FileName="BusinessLayer/Concrete/SessionManager.cs" Line="9" Column="26" />
+      <File FileName="BusinessLayer/Concrete/UserManager.cs" Line="7" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Ringteyim" expanded="True">
-            <Node name="DataAccessLayer">
-              <Node name="Dependencies" expanded="True" />
+          <Node name="Ringteyim">
+            <Node name="BusinessLayer" expanded="True">
+              <Node name="Abstract" expanded="True" />
               <Node name="Concrete" expanded="True" />
-              <Node name="EntityFramework" expanded="True">
-                <Node name="EfLessonDal.cs" selected="True" />
-              </Node>
+            </Node>
+            <Node name="DataAccessLayer" expanded="True">
+              <Node name="Abstract" expanded="True" />
               <Node name="Repositories" expanded="True" />
-            </Node>
-            <Node name="EntityLayer" expanded="True">
-              <Node name="Entities" expanded="True" />
-            </Node>
-            <Node name="RingteyimAPI" expanded="True">
-              <Node name="Controllers" expanded="True" />
             </Node>
           </Node>
         </State>

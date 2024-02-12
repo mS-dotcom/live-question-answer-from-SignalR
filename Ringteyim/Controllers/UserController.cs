@@ -2,30 +2,79 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BusinessLayer.Abstract;
+using EntityLayer.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace Ringteyim.Controllers
 {
+    
+
     [Route("api/[controller]")]
     public class UserController : Controller
     {
-        // GET: api/values
+        private readonly IUserService _userService;
+
+        public UserController(IUserService userService)
+        {
+            _userService = userService;
+        }
+
+
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IActionResult UserList()
         {
-            return new string[] { "value1", "value2" };
+            var users = _userService.TGetListAll();
+            return Ok(users);
         }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpPost]
+        public IActionResult CreateUser(User user)
         {
-            return "value";
+            try
+            {
+                _userService.TAdd(user);
+                return Ok(user);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest();
+            }
         }
-
-       
+        [HttpDelete]
+        public IActionResult DeleteUser(User user)
+        {
+            try
+            {
+                _userService.TDelete(user);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest();
+            }
+        }
+        [HttpPut]
+        public IActionResult UpdateUser(User user)
+        {
+            try
+            {
+                _userService.TUpdate(user);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest();
+            }
+        }
+        [HttpGet]
+        public IActionResult GetUser(int id)
+        {
+            var user=_userService.TGetById(id);
+            return Ok(user);
+        }
     }
 }
 

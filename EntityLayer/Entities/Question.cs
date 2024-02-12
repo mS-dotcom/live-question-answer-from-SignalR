@@ -8,9 +8,15 @@ namespace EntityLayer.Entities
 		[Key]
 		public int QuestionId { get; set; }
 
+		public string? QuestionImage { get; set; }
+
 		public string questionText { get; set; }
 
 		public int questionPoint { get; set; }
+
+		public int LessonId { get; set; }
+
+
 
 	}
 }

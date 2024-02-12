@@ -1,38 +1,41 @@
 ﻿using System;
 using BusinessLayer.Abstract;
+using DataAccessLayer.Abstract;
 using EntityLayer.Entities;
 
 namespace BusinessLayer.Concrete
 {
 	public class SessionManager:ISessionService
 	{
-		public SessionManager()
+        private readonly ISessionDal _sessionDal;
+		public SessionManager(ISessionDal sessionDal)
 		{
+            _sessionDal = sessionDal;
 		}
 
         public void TAdd(Session entity)
         {
-            throw new NotImplementedException();
+            _sessionDal.Add(entity);
         }
 
         public void TDelete(Session entity)
         {
-            throw new NotImplementedException();
+            _sessionDal.Delete(entity);
         }
 
         public Session TGetById(int id)
         {
-            throw new NotImplementedException();
+            return _sessionDal.GetById(id);
         }
 
         public List<Session> TGetListAll()
         {
-            throw new NotImplementedException();
+            return _sessionDal.GetListAll();
         }
 
         public void TUpdate(Session entity)
         {
-            throw new NotImplementedException();
+            _sessionDal.Update(entity);
         }
     }
 }

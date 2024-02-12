@@ -9,9 +9,6 @@ namespace EntityLayer.Entities
 		public int ExamId { get; set; }
 
 		public string name { get; set; }
-
-
-
 	}
 }
 

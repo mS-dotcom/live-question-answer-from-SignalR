@@ -1,4 +1,5 @@
 ﻿using System;
+using DataAccessLayer.Abstract;
 using EntityLayer.Entities;
 
 namespace BusinessLayer.Abstract
@@ -8,4 +9,3 @@ namespace BusinessLayer.Abstract
 
 	}
 }
-

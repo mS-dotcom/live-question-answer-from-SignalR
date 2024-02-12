@@ -1,7 +1,10 @@
 ﻿using System;
+using DataAccessLayer.Abstract;
+using EntityLayer.Entities;
+
 namespace BusinessLayer.Abstract
 {
-	public interface ILessonDal
+	public interface ILessonService:IGenericService<Lesson>
 	{
 	}
 }

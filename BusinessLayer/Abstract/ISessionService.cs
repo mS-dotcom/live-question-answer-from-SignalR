@@ -1,8 +1,9 @@
 ﻿using System;
+using EntityLayer.Entities;
+
 namespace BusinessLayer.Abstract
 {
-	public interface ISessionService
+	public interface ISessionService:IGenericService<Session>
 	{
 	}
 }
-

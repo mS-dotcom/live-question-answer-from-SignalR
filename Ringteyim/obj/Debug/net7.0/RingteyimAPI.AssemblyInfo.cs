@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RingteyimAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae8f7f368b5cc81b077d7c26d1a64af1fb61fde7")]
 [assembly: System.Reflection.AssemblyProductAttribute("RingteyimAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RingteyimAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

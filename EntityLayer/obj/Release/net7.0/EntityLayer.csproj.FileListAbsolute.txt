@@ -1,0 +1,12 @@
+/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/EntityLayer/bin/Release/net7.0/EntityLayer.deps.json
+/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/EntityLayer/bin/Release/net7.0/EntityLayer.dll
+/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/EntityLayer/bin/Release/net7.0/EntityLayer.pdb
+/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/EntityLayer/obj/Release/net7.0/EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/EntityLayer/obj/Release/net7.0/EntityLayer.AssemblyInfoInputs.cache
+/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/EntityLayer/obj/Release/net7.0/EntityLayer.AssemblyInfo.cs
+/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/EntityLayer/obj/Release/net7.0/EntityLayer.csproj.CoreCompileInputs.cache
+/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/EntityLayer/obj/Release/net7.0/EntityLayer.sourcelink.json
+/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/EntityLayer/obj/Release/net7.0/EntityLayer.dll
+/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/EntityLayer/obj/Release/net7.0/refint/EntityLayer.dll
+/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/EntityLayer/obj/Release/net7.0/EntityLayer.pdb
+/Users/muhammedseker/Documents/GitHub/live-question-answer-from-SignalR/EntityLayer/obj/Release/net7.0/ref/EntityLayer.dll

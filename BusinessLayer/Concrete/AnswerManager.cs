@@ -7,35 +7,35 @@ namespace BusinessLayer.Concrete
 {
 	public class AnswerManager:IAnswerService
 	{
-        private readonly IAnswerDal _aboutDal;
+        private readonly IAnswerDal _answerDal;
 		public AnswerManager(IAnswerDal answerDal)
 		{
-            _aboutDal = answerDal;
+            _answerDal = answerDal;
 		}
 
         public void TAdd(Answer entity)
         {
-            _aboutDal.Add(entity);
+            _answerDal.Add(entity);
         }
 
         public void TDelete(Answer entity)
         {
-            _aboutDal.Delete(entity);
+            _answerDal.Delete(entity);
         }
 
         public Answer TGetById(int id)
         {
-            return _aboutDal.GetById(id);
+            return _answerDal.GetById(id);
         }
 
         public List<Answer> TGetListAll()
         {
-            return _aboutDal.GetListAll();
+            return _answerDal.GetListAll();
         }
 
         public void TUpdate(Answer entity)
         {
-            _aboutDal.Update(entity);
+            _answerDal.Update(entity);
         }
     }
 }

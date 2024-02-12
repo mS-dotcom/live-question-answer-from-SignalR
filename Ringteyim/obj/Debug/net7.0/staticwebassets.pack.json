@@ -241,20 +241,20 @@
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.Ringteyim.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.RingteyimAPI.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.Ringteyim.props",
-      "PackagePath": "build\\Ringteyim.props"
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.RingteyimAPI.props",
+      "PackagePath": "build\\RingteyimAPI.props"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Ringteyim.props",
-      "PackagePath": "buildMultiTargeting\\Ringteyim.props"
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.RingteyimAPI.props",
+      "PackagePath": "buildMultiTargeting\\RingteyimAPI.props"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Ringteyim.props",
-      "PackagePath": "buildTransitive\\Ringteyim.props"
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.RingteyimAPI.props",
+      "PackagePath": "buildTransitive\\RingteyimAPI.props"
     }
   ],
   "ElementsToRemove": []
