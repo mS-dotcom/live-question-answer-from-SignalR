@@ -8,11 +8,13 @@ namespace EntityLayer.Entities
 	{
 		[Key]
 		public int Id { get; set; }
+
 		[ForeignKey("Lesson")]
 		public int LessonId { get; set; }
 
 		public Lesson lesson { get; set; }
 
+		[ForeignKey("Exam")]
 		public int ExamId { get; set; }
 
 		public Exam exam { get; set; }

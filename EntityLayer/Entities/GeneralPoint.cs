@@ -19,4 +19,3 @@ namespace EntityLayer.Entities
 		public DateTime dateTime { get; set; }
 	}
 }
-

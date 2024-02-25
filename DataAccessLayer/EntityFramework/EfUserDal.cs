@@ -8,9 +8,16 @@ namespace DataAccessLayer.EntityFramework
 {
     public class EfUserDal : GenericRepository<User>, IUserDal
     {
-        public EfUserDal(RingteyimContext context) : base(context)
+        private static readonly RingteyimContext _context;
+        public EfUserDal(RingteyimContext context) : base(_context)
         {
+            context = _context;
+        }
 
+        public User GetUser(int userId)
+        {
+            var user=_context.users.FirstOrDefault(x => x.UserId == userId);
+            return user;
         }
     }
 }

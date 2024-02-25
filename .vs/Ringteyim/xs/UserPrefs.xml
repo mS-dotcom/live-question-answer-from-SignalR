@@ -1,77 +1,74 @@
-﻿<Properties StartupConfiguration="{4555CA9D-D840-4FC2-A5AF-106DEB90DFF9}|https" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="BusinessLayer/Concrete/AnswerManager.cs">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{4555CA9D-D840-4FC2-A5AF-106DEB90DFF9}|https">
+  <MonoDevelop.Ide.ItemProperties.RingteyimAPI PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccessLayer/EntityFramework/EfUserDal.cs">
     <Files>
       <File FileName="Ringteyim/Controllers/UserController.cs" />
       <File FileName="DataAccessLayer/Concrete/RingteyimContext.cs" />
       <File FileName="Ringteyim/Program.cs" />
-      <File FileName="EntityLayer/Entities/User.cs" />
-      <File FileName="EntityLayer/Entities/Exam.cs" />
-      <File FileName="EntityLayer/Entities/Lesson.cs" />
-      <File FileName="EntityLayer/Entities/LessonAndExam.cs" />
-      <File FileName="EntityLayer/Entities/Question.cs" />
-      <File FileName="EntityLayer/Entities/Session.cs" />
-      <File FileName="EntityLayer/Entities/Option.cs" />
-      <File FileName="EntityLayer/Entities/Answer.cs" />
+      <File FileName="EntityLayer/Entities/Exam.cs" Line="17" Column="41" />
+      <File FileName="EntityLayer/Entities/Lesson.cs" Line="13" Column="21" />
+      <File FileName="EntityLayer/Entities/LessonAndExam.cs" Line="12" Column="25" />
+      <File FileName="EntityLayer/Entities/Session.cs" Line="48" Column="49" />
+      <File FileName="EntityLayer/Entities/Option.cs" Line="17" Column="11" />
+      <File FileName="EntityLayer/Entities/Answer.cs" Line="36" Column="55" />
       <File FileName="DataAccessLayer/Abstract/ISessionDal.cs" />
-      <File FileName="DataAccessLayer/Abstract/ILessonDal.cs" Line="5" Column="2" />
+      <File FileName="DataAccessLayer/Abstract/ILessonDal.cs" />
       <File FileName="DataAccessLayer/Abstract/IQuestionDal.cs" />
-      <File FileName="DataAccessLayer/Abstract/IAnswerDal.cs" />
-      <File FileName="DataAccessLayer/Abstract/IExamDal.cs" />
       <File FileName="DataAccessLayer/Abstract/IGeneralPointDal.cs" />
       <File FileName="DataAccessLayer/Abstract/IOptionDal.cs" />
       <File FileName="DataAccessLayer/Repositories/GenericRepository.cs" />
-      <File FileName="DataAccessLayer/EntityFramework/EfUserDal.cs" />
+      <File FileName="DataAccessLayer/EntityFramework/EfUserDal.cs" Line="7" Column="42" />
       <File FileName="DataAccessLayer/EntityFramework/EfSessionDal.cs" />
       <File FileName="DataAccessLayer/EntityFramework/EfQuestionDal.cs" />
       <File FileName="DataAccessLayer/EntityFramework/EfOptionDal.cs" />
-      <File FileName="DataAccessLayer/EntityFramework/EfLessonAndExamDal.cs" Line="11" Column="76" />
+      <File FileName="DataAccessLayer/EntityFramework/EfLessonAndExamDal.cs" />
       <File FileName="DataAccessLayer/Abstract/ILessonAndExamDal.cs" />
-      <File FileName="DataAccessLayer/EntityFramework/EfLessonDal.cs" Line="13" Column="1" />
-      <File FileName="DataAccessLayer/EntityFramework/EfAnswerDal.cs" Line="11" Column="63" />
-      <File FileName="DataAccessLayer/EntityFramework/EfExamDal.cs" Line="12" Column="10" />
-      <File FileName="DataAccessLayer/EntityFramework/EfGeneralPointDal.cs" Line="17" Column="1" />
-      <File FileName="BusinessLayer/Abstract/IGenericService.cs" Line="12" Column="18" />
-      <File FileName="BusinessLayer/Abstract/IAboutService.cs" Line="6" Column="54" />
-      <File FileName="BusinessLayer/Abstract/IExamService.cs" Line="5" Column="2" />
-      <File FileName="BusinessLayer/Abstract/IGeneralPointService.cs" Line="8" Column="3" />
-      <File FileName="BusinessLayer/Abstract/ILessonAndExamService.cs" Line="9" Column="3" />
-      <File FileName="BusinessLayer/Abstract/ILessonDal.cs" Line="7" Column="33" />
-      <File FileName="BusinessLayer/Abstract/IOptionService.cs" Line="8" Column="1" />
-      <File FileName="BusinessLayer/Abstract/IQuestionService.cs" Line="8" Column="3" />
-      <File FileName="BusinessLayer/Abstract/ISessionService.cs" Line="8" Column="3" />
-      <File FileName="BusinessLayer/Abstract/IUserService.cs" Line="9" Column="1" />
-      <File FileName="BusinessLayer/Concrete/AnswerManager.cs" Line="3" Column="32" />
-      <File FileName="BusinessLayer/Concrete/ExamManager.cs" Line="10" Column="4" />
-      <File FileName="BusinessLayer/Concrete/GeneralPointManager.cs" Line="37" Column="5" />
-      <File FileName="BusinessLayer/Concrete/LessonAndExamManager.cs" Line="7" Column="57" />
-      <File FileName="BusinessLayer/Concrete/LessonManager.cs" Line="7" Column="43" />
-      <File FileName="BusinessLayer/Concrete/OptionManager.cs" Line="7" Column="32" />
-      <File FileName="BusinessLayer/Concrete/QuestionService.cs" Line="8" Column="3" />
-      <File FileName="BusinessLayer/Concrete/SessionManager.cs" Line="9" Column="26" />
-      <File FileName="BusinessLayer/Concrete/UserManager.cs" Line="7" Column="25" />
+      <File FileName="DataAccessLayer/EntityFramework/EfLessonDal.cs" />
+      <File FileName="DataAccessLayer/EntityFramework/EfAnswerDal.cs" />
+      <File FileName="DataAccessLayer/EntityFramework/EfExamDal.cs" />
+      <File FileName="DataAccessLayer/EntityFramework/EfGeneralPointDal.cs" />
+      <File FileName="BusinessLayer/Abstract/IGenericService.cs" />
+      <File FileName="BusinessLayer/Abstract/IExamService.cs" />
+      <File FileName="BusinessLayer/Abstract/IGeneralPointService.cs" />
+      <File FileName="BusinessLayer/Abstract/ILessonAndExamService.cs" />
+      <File FileName="BusinessLayer/Concrete/OptionManager.cs" />
+      <File FileName="BusinessLayer/Concrete/SessionManager.cs" />
+      <File FileName="BusinessLayer/Concrete/UserManager.cs" />
+      <File FileName="BusinessLayer/Abstract/IAnswerService.cs" />
+      <File FileName="DataAccessLayer/Abstract/IUserDal.cs" Line="8" Column="26" />
+      <File FileName="BusinessLayer/Abstract/ILessonService.cs" />
+      <File FileName="EntityLayer/Entities/SessionQuestion.cs" Line="21" Column="45" />
+      <File FileName="EntityLayer/Entities/GeneralPoint.cs" Line="13" Column="3" />
+      <File FileName="EntityLayer/Entities/Question.cs" Line="27" Column="49" />
+      <File FileName="EntityLayer/Entities/User.cs" Line="27" Column="33" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Ringteyim">
-            <Node name="BusinessLayer" expanded="True">
-              <Node name="Abstract" expanded="True" />
+          <Node name="Ringteyim" expanded="True">
+            <Node name="BusinessLayer" expanded="True" />
+            <Node name="DataAccessLayer">
               <Node name="Concrete" expanded="True" />
-            </Node>
-            <Node name="DataAccessLayer" expanded="True">
-              <Node name="Abstract" expanded="True" />
+              <Node name="EntityFramework">
+                <Node name="EfUserDal.cs" selected="True" />
+              </Node>
               <Node name="Repositories" expanded="True" />
+            </Node>
+            <Node name="EntityLayer">
+              <Node name="Entities" expanded="True" />
+            </Node>
+            <Node name="RingteyimAPI" expanded="True">
+              <Node name="Controllers" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.RingteyimAPI PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
 </Properties>

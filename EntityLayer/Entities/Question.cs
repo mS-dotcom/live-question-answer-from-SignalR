@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EntityLayer.Entities
 {
@@ -14,9 +15,16 @@ namespace EntityLayer.Entities
 
 		public int questionPoint { get; set; }
 
+		[ForeignKey("Lesson")]
 		public int LessonId { get; set; }
 
+		public Lesson Lesson { get; set; }
 
+		public IList<Answer> answers { get; set; }
+
+		public IList<Option> options { get; set; }
+
+		public IList<SessionQuestion> sessionQuestions { get; set; }
 
 	}
 }

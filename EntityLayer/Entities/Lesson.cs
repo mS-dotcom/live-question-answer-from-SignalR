@@ -9,7 +9,8 @@ namespace EntityLayer.Entities
 		public int LessonId { get; set; }
 
 		public string LessonName { get; set; }
-        public ICollection<LessonAndExam> lessonAndExams { get; set; }
+
+        public IList<LessonAndExam> lessonAndExams { get; set; }
     }
 }
 
