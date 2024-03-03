@@ -28,7 +28,7 @@ builder.Services.AddControllersWithViews();
 
 // Add services to the container.
 builder.Services.AddDbContext<RingteyimContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ConnectionStrings:DefaultConnection")));
 
 var app = builder.Build();
 

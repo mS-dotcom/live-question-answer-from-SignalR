@@ -18,7 +18,7 @@ namespace DataAccessLayer.Concrete
         {
 
 
-            string connectionString = Configuration.GetConnectionString("DefaultConnection");
+            string connectionString = "Server=37.148.213.153;Database=ringle;User Id=mseker;Password=1Q2W3e4r5t6y1905!;";
 
             optionsBuilder.UseSqlServer(connectionString);
         }

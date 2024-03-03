@@ -5,9 +5,11 @@ using EntityLayer.Entities;
 
 namespace BusinessLayer.Concrete
 {
-	public class AnswerManager:IAnswerService
+    
+    public class AnswerManager:IAnswerService
 	{
         private readonly IAnswerDal _answerDal;
+
 		public AnswerManager(IAnswerDal answerDal)
 		{
             _answerDal = answerDal;

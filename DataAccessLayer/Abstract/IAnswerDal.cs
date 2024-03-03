@@ -3,7 +3,9 @@ using EntityLayer.Entities;
 
 namespace DataAccessLayer.Abstract
 {
-	public interface IAnswerDal:IGenericDal<Answer>
+    
+
+    public interface IAnswerDal:IGenericDal<Answer>
 	{
 		
 	}
